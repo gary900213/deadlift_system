@@ -9,7 +9,7 @@ def process_video(input_video_path, output_video_path, model_path):
         # 打開輸入影片
         cap = cv2.VideoCapture(input_video_path)
         if not cap.isOpened():
-            print("無法打開影片！")
+            print("無法打開影片！")5151515151515
             return
 
         # 取得影片資訊
